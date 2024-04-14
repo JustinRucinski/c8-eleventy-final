@@ -1,0 +1,62 @@
+body{
+    font-family: helvetica;
+}
+
+header.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold; 
+    background: lightblue;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div.links {
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 5px; 
+}
+
+a.navlink{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+a.navlinkabout{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+h2 {
+    color: black;
+    font-weight: 600;
+    background: lightblue;
+    font-family: helvetica;
+    padding: 10px;
+    margin: 0;
+}
+
+div.welcome{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
