@@ -1,5 +1,6 @@
 body{
     font-family: helvetica;
+    background: pink;
 }
 
 header.navigation {
@@ -49,7 +50,7 @@ h2 {
 div.welcome{
     width: 800px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     border: 1px solid black;
     background: lightgray;
     border-radius: 5px;
