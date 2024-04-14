@@ -1,13 +1,13 @@
 body{
     font-family: helvetica;
-    background: pink;
+    background: #15616d;
 }
 
 header.navigation {
     display: flex;
     justify-content: space-between;
     font-weight: bold; 
-    background: lightblue;
+    background: #2e282a;
     margin: 0 auto;
     margin-top: 25px;
     width: 800px;
@@ -22,26 +22,36 @@ div.links {
 h1 {
     font-size: 30px;
     margin-left: 5px; 
+    color: #e0ded9;
 }
 
-a.navlink{
+a.navlink {
     text-decoration: none;
     font-size: 20px;
     padding-right: 10px;
+    color: #ff7f11;
 }
+
+a.navlink:hover {
+    text-decoration: underline;
+  }
 
 a.navlinkabout{
     text-decoration: none;
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
+    color: #ff7f11;
 }
 
+a.navlinkabout:hover {
+    text-decoration: underline;
+  }
 
 h2 {
-    color: black;
+    color: #e0ded9;
     font-weight: 600;
-    background: lightblue;
+    background: #2e282a;
     font-family: helvetica;
     padding: 10px;
     margin: 0;
@@ -52,18 +62,21 @@ div.welcome{
     margin: auto;
     margin-top: 30px;
     border: 1px solid black;
-    background: lightgray;
+    background: #E0DED9;
     border-radius: 5px;
 }
 
 div.main-text{
     padding-left: 10px;
+    color: #2e282a;
 }
 
 
 .footer{
     margin-top: 100px;
     text-align: center;
+    color: #E0DED9;
+    font-weight: bold;
 }
 
 img{
