@@ -55,6 +55,10 @@ div.welcome{
     border-radius: 5px;
 }
 
+div.main-text{
+    padding-left: 10px;
+}
+
 
 .footer{
     margin-top: 100px;
